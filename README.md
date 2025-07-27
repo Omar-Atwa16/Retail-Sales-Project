@@ -20,6 +20,8 @@ This Python project was completed as part of the **Fundamentals of Data Science*
 
 - key insights
 - Visualization
+- Complete dataset
+- Dataset with missing values
 
 ## About Me
 
