@@ -1,0 +1,49 @@
+Transaction 1: Predicted Payment Method: Bank Transfer
+Transaction 2: Predicted Payment Method: Credit Card
+Transaction 3: Predicted Payment Method: Cash
+Transaction 4: Predicted Payment Method: Bank Transfer
+Transaction 5: Predicted Payment Method: Bank Transfer
+Transaction 6: Predicted Payment Method: Bank Transfer
+Transaction 7: Predicted Payment Method: Mobile Payment
+Transaction 8: Predicted Payment Method: Credit Card
+Transaction 9: Predicted Payment Method: Bank Transfer
+Transaction 10: Predicted Payment Method: Bank Transfer
+Transaction 11: Predicted Payment Method: Mobile Payment
+Transaction 12: Predicted Payment Method: Bank Transfer
+Transaction 13: Predicted Payment Method: Bank Transfer
+Transaction 14: Predicted Payment Method: Bank Transfer
+Transaction 15: Predicted Payment Method: Bank Transfer
+Transaction 16: Predicted Payment Method: Mobile Payment
+Transaction 17: Predicted Payment Method: Bank Transfer
+Transaction 18: Predicted Payment Method: Credit Card
+Transaction 19: Predicted Payment Method: Bank Transfer
+Transaction 20: Predicted Payment Method: Bank Transfer
+Transaction 21: Predicted Payment Method: Bank Transfer
+Transaction 22: Predicted Payment Method: Bank Transfer
+Transaction 23: Predicted Payment Method: Bank Transfer
+Transaction 24: Predicted Payment Method: Bank Transfer
+Transaction 25: Predicted Payment Method: Bank Transfer
+Transaction 26: Predicted Payment Method: Bank Transfer
+Transaction 27: Predicted Payment Method: Bank Transfer
+Transaction 28: Predicted Payment Method: Bank Transfer
+Transaction 29: Predicted Payment Method: Bank Transfer
+Transaction 30: Predicted Payment Method: Bank Transfer
+Transaction 31: Predicted Payment Method: Mobile Payment
+Transaction 32: Predicted Payment Method: Bank Transfer
+Transaction 33: Predicted Payment Method: Bank Transfer
+Transaction 34: Predicted Payment Method: Credit Card
+Transaction 35: Predicted Payment Method: Bank Transfer
+Transaction 36: Predicted Payment Method: Credit Card
+Transaction 37: Predicted Payment Method: Mobile Payment
+Transaction 38: Predicted Payment Method: Bank Transfer
+Transaction 39: Predicted Payment Method: Mobile Payment
+Transaction 40: Predicted Payment Method: Bank Transfer
+
+
+
+Number of Predictions For Each payment Method:
+Bank Transfer     28
+Mobile Payment     6
+Credit Card        5
+Cash               1
+Name: count, dtype: int64

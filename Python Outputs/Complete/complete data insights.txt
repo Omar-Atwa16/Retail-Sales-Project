@@ -1,0 +1,129 @@
+The Full Data:
+    TransactionID ProductCategory StoreLocation  UnitPrice  QuantitySold  \
+0           T0001        Clothing      Mansoura    1603.67             4   
+1           T0002        Clothing      Mansoura    3698.71             4   
+2           T0003        Clothing    Alexandria    4189.86             6   
+3           T0004     Electronics      Mansoura    3088.44             9   
+4           T0005       Groceries      Mansoura    4495.70            10   
+..            ...             ...           ...        ...           ...   
+195         T0196     Electronics         Asyut    4000.59             5   
+196         T0197     Electronics      Mansoura    2297.47             8   
+197         T0198       Groceries          Giza     879.17            10   
+198         T0199       Groceries         Cairo    3165.04            10   
+199         T0200       Groceries         Asyut     185.13             8   
+
+     TotalSale   PaymentMethod  CustomerAge Returned  
+0      6414.68  Mobile Payment           29       No  
+1     14794.84     Credit Card           34       No  
+2     25139.16     Credit Card           67       No  
+3     27795.96            Cash           48       No  
+4     44957.00  Mobile Payment           49       No  
+..         ...             ...          ...      ...  
+195   20002.95            Cash           39       No  
+196   18379.76  Mobile Payment           44       No  
+197    8791.70  Mobile Payment           64       No  
+198   31650.40     Credit Card           54      Yes  
+199    1481.04            Cash           26       No  
+
+[200 rows x 9 columns]
+
+
+
+Number of Transactions: 200
+
+
+
+Transactions Per City:
+  StoreLocation  NumberOfTransactions
+0          Giza                    48
+1         Cairo                    43
+2         Asyut                    39
+3      Mansoura                    36
+4    Alexandria                    34
+
+
+
+Total Sales: $3213543.85
+
+
+
+Total Units Sold: 1176
+
+
+
+Units Sold Per Product Category:
+  ProductCategory  UnitsSold
+0       Furniture        283
+1       Groceries        254
+2            Toys        233
+3     Electronics        208
+4        Clothing        198
+
+
+
+Units Sold Per City:
+  StoreLocation  UnitsSold
+0          Giza        279
+1         Cairo        246
+2      Mansoura        236
+3         Asyut        217
+4    Alexandria        198
+
+
+
+Total Sales Per Product Category:
+  ProductCategory  TotalSales
+0       Furniture   813032.33
+1       Groceries   687615.70
+2            Toys   615309.29
+3     Electronics   598497.81
+4        Clothing   499088.72
+
+
+
+Total Sales Per City:
+  StoreLocation  TotalSales
+0          Giza   787289.05
+1      Mansoura   748540.83
+2    Alexandria   568633.31
+3         Asyut   567572.94
+4         Cairo   541507.72
+
+
+
+Average Customer Age Per Product Category:
+  ProductCategory  AverageAge
+0       Furniture        47.0
+1            Toys        45.0
+2        Clothing        43.0
+3     Electronics        42.0
+4       Groceries        38.0
+
+
+
+Payment Method Usage Counter:
+    PaymentMethod  UsageCount
+0   Bank Transfer          55
+1  Mobile Payment          51
+2     Credit Card          51
+3            Cash          43
+
+
+
+Payment Method Per City:
+StoreLocation   Alexandria  Asyut  Cairo  Giza  Mansoura
+PaymentMethod                                           
+Bank Transfer            9     16     11    10         9
+Cash                     8      7     10    12         6
+Credit Card              7      9     14    15         6
+Mobile Payment          10      7      8    11        15
+
+
+
+Number of Refunds: 16
+
+
+Total Refunded Amount: $310177.32
+
+
+Total Sales After Refunds:$2903366.53
